@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 // This is how route is built in express
 app.get('/', (req,res)=>{
    var title = "Our Home Page";
-   res.render('pages/index', {title});
+   res.render('pages/index', {title:title});
 });
 
 
