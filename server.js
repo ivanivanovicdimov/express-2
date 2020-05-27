@@ -14,7 +14,7 @@ app.get('/', (req,res)=>{
 
 app.get('/users', (req,res)=>{
    var title = "Our Home Page";
-   res.render('pages/index', {
+   res.render('users/index', {
       title:title,
       users:data
    });
